@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.hightech.arcade.Future.FutureActivity"
+    android:background="@drawable/future_back1">
+
+    <Button
+        android:id="@+id/buttonPlay"
+        android:layout_width="215dp"
+        android:layout_height="78dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="246dp"
+        android:layout_marginLeft="283dp"
+        android:layout_marginTop="-97dp"
+        android:layout_marginEnd="249dp"
+        android:layout_marginRight="283dp"
+        android:layout_marginBottom="29dp"
+        android:background="@android:color/transparent" />
+
+    <ImageView
+        android:id="@+id/play"
+        android:layout_width="227dp"
+        android:layout_height="77dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="33dp"
+        android:src="@drawable/future_start" />
+
+
+    <Button
+        android:id="@+id/buttonLeader"
+        android:layout_width="66dp"
+        android:layout_height="77dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="86dp"
+        android:layout_marginBottom="33dp"
+        android:background="@android:color/transparent" />
+    <ImageView
+        android:id="@+id/leader"
+        android:layout_width="66dp"
+        android:layout_height="77dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="86dp"
+        android:layout_marginBottom="33dp"
+        android:src="@drawable/future_leader" />
+
+
+    <Button
+        android:id="@+id/buttonIndietro"
+        android:layout_width="66dp"
+        android:layout_height="77dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="86dp"
+        android:layout_marginRight="86dp"
+        android:layout_marginBottom="33dp"
+        android:background="@android:color/transparent" />
+    <ImageView
+        android:id="@+id/indietro"
+        android:layout_width="66dp"
+        android:layout_height="77dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="86dp"
+        android:layout_marginRight="86dp"
+        android:layout_marginBottom="33dp"
+        android:src="@drawable/future_indietro" />
+
+    <TextView
+        android:id="@+id/arcade"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="65dp"
+        android:fontFamily="@font/string"
+        android:text="Future"
+        android:textColor="@android:color/background_light"
+        android:textSize="120sp"
+        android:textStyle="bold"
+        app:drawableTint="#FFFFFF"
+        tools:ignore="HardcodedText" />
+
+</RelativeLayout>
