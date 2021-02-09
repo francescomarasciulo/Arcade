@@ -25,7 +25,15 @@
         <activity
             android:name="com.hightech.arcade.Future.FutureActivity"
             android:screenOrientation="landscape" />
-
+        <activity
+            android:name="com.hightech.arcade.JungleEscape.JungleEscapeActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.hightech.arcade.JungleEscape.GameActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.hightech.arcade.JungleEscape.HighScore"
+            android:screenOrientation="portrait" />
     </application>
 
 </manifest>
