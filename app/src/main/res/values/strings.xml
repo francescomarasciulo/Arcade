@@ -1,3 +1,22 @@
 <resources>
-    <string name="app_name">Arcade</string>
+    <string name="app_name" translatable="false">Arcade</string>
+    <string name="play">Play</string>
+    <string name="back">Back</string>
+    <string name="game_over">Game Over</string>
+    <string name="play_again">Play Again</string>
+    <string name="quit">Quit</string>
+    <string name="username">Username</string>
+    <string name="score">Score</string>
+    <string name="future" translatable="false">Future</string>
+    <string name="android_doodle" translatable="false">Android Doodle</string>
+    <string name="jungle_escape" translatable="false">Jungle Escape</string>
+    <string name="jungle_run_2d" translatable="false">Jungle Run 2D</string>
+    <string name="leaderboard">Leaderboard</string>
+    <string name="welcome">Welcome, </string>
+    <string name="internetMessage">No Internet connection detected. Your score will not be saved in the leaderboard.</string>
+    <string name="welcomeMessage">Welcome to Arcade, please insert your username to continue</string>
+    <string name="errorUsername">Username can\'t be longer than 30 characters.</string>
+    <string name="errorMessage">Username already taken. Please choose another username.</string>
+    <string name="insert">Insert</string>
+    <string name="high_score">"High Score: "</string>
 </resources>

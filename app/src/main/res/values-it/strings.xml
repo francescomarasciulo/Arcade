@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="play">Gioca</string>
+    <string name="back">Indietro</string>
+    <string name="play_again">Gioca ancora</string>
+    <string name="quit">Esci</string>
+    <string name="game_over">Gioco finito</string>
+    <string name="username">Utente</string>
+    <string name="score">Punteggio</string>
+    <string name="leaderboard">Classifica</string>
+    <string name="welcome">Benvenuto, </string>
+    <string name="internetMessage">Nessuna connessione ad Internet rilevata. Il tuo score non sarà salvato nella classifica.</string>
+    <string name="welcomeMessage">Benvenuto in Arcade, per favore inserisci il tuo nome utente per proseguire</string>
+    <string name="errorUsername">Il nome utente non può essere più lungo di 30 caratteri.</string>
+    <string name="errorMessage">Nome utente già scelto. Per favore scegli un altro nome utente</string>
+    <string name="insert">Inserisci</string>
+    <string name="high_score">"Punteggio migliore: "</string>
+</resources>
