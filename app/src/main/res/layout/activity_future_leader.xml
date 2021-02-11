@@ -17,13 +17,13 @@
         android:layout_height="wrap_content"
         android:gravity="center"
         android:fontFamily="@font/string"
-        android:textSize="65sp"
+        android:textSize="60sp"
         android:textStyle="bold"
         android:id="@+id/score1" />
 
     <TextView
         android:textColor="@android:color/white"
-        android:textSize="65sp"
+        android:textSize="60sp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:gravity="center"
@@ -36,7 +36,7 @@
         android:gravity="center"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="65sp"
+        android:textSize="60sp"
         android:textStyle="bold"
         android:fontFamily="@font/string"
         android:id="@+id/score3" />
@@ -44,7 +44,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="65sp"
+        android:textSize="60sp"
         android:textColor="@android:color/white"
         android:gravity="center"
         android:textStyle="bold"

@@ -26,6 +26,15 @@
             android:name="com.hightech.arcade.Future.FutureActivity"
             android:screenOrientation="landscape" />
         <activity
+            android:name="com.hightech.arcade.AndroidDoodle.LeaderDoodle"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.hightech.arcade.AndroidDoodle.DoodleActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.hightech.arcade.AndroidDoodle.DoodleGameActivity"
+            android:screenOrientation="portrait" />
+        <activity
             android:name="com.hightech.arcade.JungleEscape.JungleEscapeActivity"
             android:screenOrientation="portrait" />
         <activity

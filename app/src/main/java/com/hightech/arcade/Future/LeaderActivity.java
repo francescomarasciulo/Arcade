@@ -34,10 +34,10 @@ public class LeaderActivity extends AppCompatActivity {
 
         sharedPreferences  = getSharedPreferences("Future", Context.MODE_PRIVATE);
 
-        record1.setText("Score 1 : " + sharedPreferences.getInt("score1", 0));
-        record2.setText("Score 2 : " + sharedPreferences.getInt("score2", 0));
-        record3.setText("Score 3 : " + sharedPreferences.getInt("score3", 0));
-        record4.setText("Score 4 : " + sharedPreferences.getInt("score4", 0));
+        record1.setText(getString(R.string.score) +" 1 : "+ sharedPreferences.getInt("score1", 0));
+        record2.setText(getString(R.string.score) +" 2 : "+ sharedPreferences.getInt("score2", 0));
+        record3.setText(getString(R.string.score) +" 3 : "+ sharedPreferences.getInt("score3", 0));
+        record4.setText(getString(R.string.score) +" 4 : "+ sharedPreferences.getInt("score4", 0));
 
     }
 }
