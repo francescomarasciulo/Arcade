@@ -43,6 +43,15 @@
         <activity
             android:name="com.hightech.arcade.JungleEscape.HighScore"
             android:screenOrientation="portrait" />
+        <activity
+            android:name="com.hightech.arcade.JungleRun.JungleRunActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="com.hightech.arcade.JungleRun.GameActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="com.hightech.arcade.JungleRun.GameOver"
+            android:screenOrientation="landscape" />
     </application>
 
 </manifest>
