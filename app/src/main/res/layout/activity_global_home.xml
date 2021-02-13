@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.hightech.arcade.Global.HomeActivity"
+    android:background="@drawable/global_home">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="220dp"
+        android:layout_height="55dp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/games"
+        android:text="ARCADE"
+        android:textAlignment="center"
+        android:textColor="#F4EEEE"
+        android:textSize="60sp" />
+
+    <TextView
+        android:id="@+id/welcome"
+        android:layout_width="220dp"
+        android:layout_height="55dp"
+        android:layout_centerInParent="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/textView"
+        android:fontFamily="@font/games"
+        android:text=""
+        android:textAlignment="center"
+        android:textColor="#F4EEEE"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:id="@+id/buttonglobal"
+        android:layout_width="130dp"
+        android:layout_height="65dp"
+        android:layout_below="@id/welcome"
+        android:layout_marginTop="5dp"
+        android:onClick="showPopup"
+        android:src="@drawable/global" />
+
+    <Button
+        android:id="@+id/futureStart"
+        android:layout_width="190dp"
+        android:layout_height="55dp"
+        android:layout_centerInParent="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/buttonglobal"
+        android:background="@drawable/roundedbutton"
+        android:fontFamily="@font/games"
+        android:text="@string/future"
+        android:textColor="#F4EEEE"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/androidDoodleStart"
+        android:layout_width="190dp"
+        android:layout_height="55dp"
+        android:layout_centerInParent="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/futureStart"
+        android:background="@drawable/roundedbutton"
+        android:fontFamily="@font/games"
+        android:text="@string/android_doodle"
+        android:textColor="#F4EEEE"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/jungleEscapeStart"
+        android:layout_width="190dp"
+        android:layout_height="55dp"
+        android:layout_centerInParent="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/androidDoodleStart"
+        android:background="@drawable/roundedbutton"
+        android:fontFamily="@font/games"
+        android:text="@string/jungle_escape"
+        android:textColor="#F4EEEE"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/jungleRunStart"
+        android:layout_width="190dp"
+        android:layout_height="55dp"
+        android:layout_centerInParent="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/jungleEscapeStart"
+        android:background="@drawable/roundedbutton"
+        android:fontFamily="@font/games"
+        android:text="@string/jungle_run_2d"
+        android:textColor="#F4EEEE"
+        android:textSize="20sp" />
+
+</RelativeLayout>

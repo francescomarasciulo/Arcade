@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/global_home"
+    android:stretchColumns="1"
+    tools:context="com.hightech.arcade.Global.GlobalLeaderboard">
+
+    <TableRow>
+        <TextView
+            android:text="@string/username"
+            android:textSize="35dp"
+            android:fontFamily="@font/games"
+            android:textColor="@android:color/background_light"
+            android:layout_gravity="left">
+        </TextView>
+
+        <TextView
+            android:text="@string/score"
+            android:textSize="35dp"
+            android:fontFamily="@font/games"
+            android:textColor="@android:color/background_light"
+            android:layout_gravity="center">
+        </TextView>
+
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:id="@+id/firstUser"
+            android:textSize="20dp"
+            android:fontFamily="@font/games"
+            android:textColor="@android:color/background_light"
+            android:layout_gravity="left">
+        </TextView>
+
+        <TextView
+            android:id="@+id/firstScore"
+            android:textSize="20dp"
+            android:fontFamily="@font/games"
+            android:textColor="@android:color/background_light"
+            android:layout_gravity="center">
+        </TextView>
+
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:id="@+id/secondUser"
+            android:textSize="20dp"
+            android:fontFamily="@font/games"
+            android:textColor="@android:color/background_light"
+            android:layout_gravity="left">
+        </TextView>
+
+        <TextView
+            android:id="@+id/secondScore"
+            android:textSize="20dp"
+            android:fontFamily="@font/games"
+            android:textColor="@android:color/background_light"
+            android:layout_gravity="center">
+        </TextView>
+
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:id="@+id/thirdUser"
+            android:textSize="20dp"
+            android:fontFamily="@font/games"
+            android:textColor="@android:color/background_light"
+            android:layout_gravity="left">
+        </TextView>
+
+        <TextView
+            android:id="@+id/thirdScore"
+            android:textSize="20dp"
+            android:fontFamily="@font/games"
+            android:textColor="@android:color/background_light"
+            android:layout_gravity="center">
+        </TextView>
+
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:id="@+id/fourthUser"
+            android:textSize="20dp"
+            android:fontFamily="@font/games"
+            android:textColor="@android:color/background_light"
+            android:layout_gravity="left">
+        </TextView>
+
+        <TextView
+            android:id="@+id/fourthScore"
+            android:textSize="20dp"
+            android:fontFamily="@font/games"
+            android:textColor="@android:color/background_light"
+            android:layout_gravity="center">
+        </TextView>
+
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:id="@+id/fifthUser"
+            android:textSize="20dp"
+            android:fontFamily="@font/games"
+            android:textColor="@android:color/background_light"
+            android:layout_gravity="left">
+        </TextView>
+
+        <TextView
+            android:id="@+id/fifthScore"
+            android:textSize="20dp"
+            android:fontFamily="@font/games"
+            android:textColor="@android:color/background_light"
+            android:layout_gravity="center">
+        </TextView>
+
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:id="@+id/sixthUser"
+            android:textSize="20dp"
+            android:fontFamily="@font/games"
+            android:textColor="@android:color/background_light"
+            android:layout_gravity="left">
+        </TextView>
+
+        <TextView
+            android:id="@+id/sixthScore"
+            android:textSize="20dp"
+            android:fontFamily="@font/games"
+            android:textColor="@android:color/background_light"
+            android:layout_gravity="center">
+        </TextView>
+
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:id="@+id/seventhUser"
+            android:textSize="20dp"
+            android:fontFamily="@font/games"
+            android:textColor="@android:color/background_light"
+            android:layout_gravity="left">
+        </TextView>
+
+        <TextView
+            android:id="@+id/seventhScore"
+            android:textSize="20dp"
+            android:fontFamily="@font/games"
+            android:textColor="@android:color/background_light"
+            android:layout_gravity="center">
+        </TextView>
+
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:id="@+id/eighthUser"
+            android:textSize="20dp"
+            android:fontFamily="@font/games"
+            android:textColor="@android:color/background_light"
+            android:layout_gravity="left">
+        </TextView>
+
+        <TextView
+            android:id="@+id/eighthScore"
+            android:textSize="20dp"
+            android:fontFamily="@font/games"
+            android:textColor="@android:color/background_light"
+            android:layout_gravity="center">
+        </TextView>
+
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:id="@+id/ninthUser"
+            android:textSize="20dp"
+            android:fontFamily="@font/games"
+            android:textColor="@android:color/background_light"
+            android:layout_gravity="left">
+        </TextView>
+
+        <TextView
+            android:id="@+id/ninthScore"
+            android:textSize="20dp"
+            android:fontFamily="@font/games"
+            android:textColor="@android:color/background_light"
+            android:layout_gravity="center">
+        </TextView>
+
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:id="@+id/tenthUser"
+            android:textSize="20dp"
+            android:fontFamily="@font/games"
+            android:textColor="@android:color/background_light"
+            android:layout_gravity="left">
+        </TextView>
+
+        <TextView
+            android:id="@+id/tenthScore"
+            android:textSize="20dp"
+            android:fontFamily="@font/games"
+            android:textColor="@android:color/background_light"
+            android:layout_gravity="center">
+        </TextView>
+
+    </TableRow>
+
+</TableLayout>
