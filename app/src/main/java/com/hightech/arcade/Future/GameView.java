@@ -188,7 +188,7 @@ public class GameView extends SurfaceView implements Runnable {
     }
 
     private void insertHighestScoreDB() {
-        int score = sharedPreferences.getInt("score1", 0);
+        Integer score = sharedPreferences.getInt("score1", 0);
         SendHighScoreDB sendHighScoreDB = new SendHighScoreDB("Future");
         sendHighScoreDB.execute("Send highest score", HomeActivity.username.getString("username", ""), score.toString());
     }

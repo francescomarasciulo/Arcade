@@ -52,6 +52,15 @@
         <activity
             android:name="com.hightech.arcade.JungleRun.GameOver"
             android:screenOrientation="landscape" />
+        <activity
+            android:name="com.hightech.arcade.Global.GlobalLeaderboard" />
+        <activity
+            android:name="com.hightech.arcade.Global.HomeActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
     </application>
 
 </manifest>
