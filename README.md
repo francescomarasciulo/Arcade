@@ -1,13 +1,9 @@
-# Arcade
-Progetto esame "Sviluppo Mobile Software"
-Applicazione Android sviluppata per l'esame di "Sviluppo di Mobile Software", per l'Università degli studi di Bari Aldo Moro, sviluppato in Android Studio da Francesco Marasciulo, Vincenzo Trisolini e Simone Ostuni.
+"Mobile Software Development" Exam Project Android application developed for the "Mobile Software Development" exam at the University of Bari Aldo Moro, developed in Android Studio by Francesco Marasciulo, Vincenzo Trisolini, and Simone Ostuni.
 
-Caratteristiche progetto:
+Project Features:
 
--Utilizzo di almeno un sensore
+Use of at least one sensor
+Local and cloud game data persistence
+Multilingual support
 
--Persistenza dati di gioco in locale e in cloud
-
--Supporto multilingua
-
-L'applicativo comprende 4 giochi (2 dei quali con accelerometro) con relativi punteggi locali sincronizzabili online in presenza di una connessione a internet.
+The application includes 4 games (2 of which with accelerometer) with respective local scores synchronizable online in the presence of an internet connection.
